@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
-                  context.go("/cases");
+                  context.go("/dashboard");
                 },
                 child: const Text("Continue"),
               ),
@@ -46,3 +46,4 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
+
